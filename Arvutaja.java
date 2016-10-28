@@ -5,6 +5,6 @@ public abstract class Arvutaja{
 	}
 	public abstract double ristloige();
 	public double kaal(){
-		return ristloige()*korgus*0.928;
+		return ristloige()*pikkus/1000000*0.928;
 	}
 }
